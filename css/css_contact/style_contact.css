@@ -1,0 +1,86 @@
+
+.contact-heading {
+    text-align: left;
+}
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.input-fields-contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.input-fields-contact .input {
+    font-family: 'Mulish';
+}
+.contact-form .input {
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    outline: none;
+    font-family: 'Mulish';
+}
+textarea {
+    height: 100px;
+    outline: none;
+}
+.btn-contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    padding-bottom: 30px;
+    font-family: 'Mulish';
+}
+.contact-form input[type=submit] {
+    text-align: center;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+    color: rgb(36, 36, 32);
+    background-color: white;
+    align-self: flex-start;
+    width: 100%;
+    outline: none;
+}
+.contact-img img {
+    width: 100%;
+    
+}
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+.contact-items {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}    
+.contact-form {
+    width: 50%;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+.contact-img {
+    width: 50%;
+    margin: 50px 0 50px 0;
+    padding-left: 30px;
+}
+
+.contact-form input[type=submit] {
+    width: 130px;
+}
+
+}

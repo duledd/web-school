@@ -1,0 +1,479 @@
+
+/*page-course*/
+.course-img {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.course-img img {
+    width: 100%;
+}
+.course-img-text {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    position: absolute;
+    padding: 30px;
+    padding-top: 100px;
+    align-self: center;
+    color: rgba(255, 255, 255, 0.945);
+}
+.course-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    background-color: #f9f9f9;
+}
+.course-info h2 {
+    padding-top: 30px;
+}
+.duration-icons {
+    display: flex;
+}
+.duration-items {
+    display: flex;
+    padding-top: 10px;
+}
+.date {
+    display: flex;
+}
+.time {
+    display: flex;
+    padding-left: 20px;
+}
+.share {
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+}
+.courses-item-desctop {
+    padding-top: 50px;
+}
+.courses-img {
+    position: relative;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+.courses-img img {
+    width: 100%;
+}
+.courses-date-time {
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    color: white;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.096);
+    width: 100%;
+    padding: 20px;
+}
+.courses-date-time p {
+    padding: 0;
+}
+.courses-date {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.courses-time {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.courses-description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    text-align: left;
+    border-bottom: 1px solid rgb(230, 228, 228);
+    background-color: #f9f9f9;
+}
+.courses-teacher {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px 0 10px 0;
+}
+.course-teacher-img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.course-teacher-img img {
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+.course-teacher-img h4 {
+    padding-left: 5px;
+}
+.course-teacher-name {
+    margin-left: 0;
+}
+.course-teacher-button button {
+    background-color: #3f51b5;
+    color: white;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.course-teacher-button-pay button {
+    background-color: #29ca8e;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.courses-icons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0 50px 0;
+}
+.left-icon {
+    margin-right: 5px;
+}
+.right-icon {
+    margin-left: 5px;
+}
+.left-icon i {
+    padding: 10px;
+    color: white;
+    background-color: lightgrey;
+}
+.right-icon i {
+    padding: 10px;
+    color: white;
+    background-color: lightgrey;
+}
+.courses {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.courses h2 {
+    padding-top: 30px;
+}
+.courses p {
+    padding-bottom: 30px;
+}
+.courses h3 {
+    padding-top: 20px;
+}
+.courses-date-time p {
+    padding: 0;
+}
+/*page - teacher*/
+.teacher-id {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.teacher-id h1, h2 {
+    width: 100%;
+    padding: 20px 0 10px 0;
+}
+
+.teacher-img-id img {
+    width: 100%;
+}
+.teacher-courses-id h2 {
+    padding-bottom: 0;
+    
+}
+.teacher-courses-id ul {
+    margin: 0;
+    padding: 0;
+}
+.teacher-courses-id li {
+    list-style-type: none;
+    padding: 5px;
+    padding-left: 0;
+}
+.teacher-courses-id a {
+    text-decoration: none;
+    color: rgb(78, 77, 77);
+}
+.teacher-about {
+    padding-bottom: 70px;
+}
+.teacher-about p {
+    text-align: justify;
+}
+/*page - teachers*/
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.teachers h1 {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.teachers p {
+    width: 100%;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.teachers h2 {
+    padding-top: 20px;
+}
+.teacher {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 5px 0 5px;
+}
+.teacher-img img{
+    width: 100%;
+}
+.teacher-name {
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(234, 232, 236);
+    background-color: white;
+}
+.teacher-name p {
+    text-align: left;
+}
+.teacher-social i {
+    background-color: white;
+    color: black;
+    padding: 0 0 10px 10px;
+    margin: 20px 0 10px 10px;
+}
+.teacher-social {
+    background-color: white;
+}
+/*page-courses-id*/
+.course-id {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.course-img-id img {
+    width: 100%;
+    border-radius: 15px;
+}
+.course-info {
+    padding: 10px;
+}
+.course-info h1 {
+    width: 100%;
+    text-align: left;
+}
+.course-info h3 {
+    padding-bottom: 20px;
+}
+.course-info p {
+    width: 100%;
+    text-align: left;
+}
+.courses-teacher-single {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px 0 10px 0;
+}
+.course-teacher-single-img {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: center;
+}
+.course-teacher-single-img p {
+    width: auto;
+}
+.course-teacher-single-img img {
+    width: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.course-teacher-single-img h4 {
+    padding-left: 5px;
+}
+.courses-date-time-single {
+    display: flex;
+    width: 100%;
+}
+.courses-date-single {
+    display: flex;
+    align-items: center;
+}
+.courses-time-single {
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+}
+span {
+    padding-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .teacher-id {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .teacher-img-id {
+        width: 50%;
+    }
+    .teacher-name-id {
+        width: 50%;
+        padding-left: 30px;
+    }
+    .courses {
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .courses-item-desctop {
+        width: 50%;
+        padding: 50px 10px 20px 10px;
+        align-content: space-around;
+    }
+    .course-info {
+        padding-left: 15px;
+        
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    /*page-course*/
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.course-img {
+    width: 50%;
+}
+.course-img img {
+    padding: 20px 10px 20px 10px;
+}
+.course-img-text {
+    padding-left: 0;
+    width: 300px;
+}
+.course-info {
+    width: 50%;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+}
+.duration-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.duration-items {
+    display: flex;
+    width: 50%;
+    
+    align-content: space-between;
+}
+.courses-item {
+    width: 50%;
+    width: calc(100% / 3);
+    align-content: space-between;
+    padding: 5px;
+    justify-content: center;
+}
+.courses-date-time {
+    font-size: 12px;
+    bottom: 5px;
+    width: 100%;
+    padding: 15px 0 15px 5px;
+}
+.courses-date {
+    padding-left: 5px;
+}
+/*page-more courses*/
+.courses h2, p {
+    width: 100%;
+}
+.courses h1 {
+    padding-bottom: 20px;
+}
+.courses {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.courses-item-desctop {
+    width: 50%;
+    width: calc(100% / 3);
+    align-content: space-between;
+    padding: 5px;
+    padding-top: 50px;
+}
+
+    /*page - teacher*/
+    .teacher-id {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .teacher-img-id {
+        padding: 20px;
+        padding-left: 0;
+        width: 33.3%;
+    }
+    .teacher-name-id {
+        padding: 20px;
+        width: 33.3%;
+    }
+    .teacher-courses-id {
+        padding: 20px;
+        width: 33.3%;
+    }
+    
+
+    .teacher-img-id img {
+        width: 100%;
+        border: 2px solid rgb(190, 189, 189);
+        border-radius: 10px;
+    }
+    /*page - teachers*/
+    .teachers {
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .teacher {
+        width: calc(100% / 4);
+        padding-top: 0;
+    }
+    /*page-courses-id*/
+    .course-id {
+        display: flex;
+        flex-direction: row;
+    }
+    .course-img-id {
+        width: 50%;
+        padding-right: 5px;
+    }
+    .course-info {
+        width: 50%;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}

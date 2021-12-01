@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(../../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(../../fonts/Nunito/Nunito-Light.ttf);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Nunito';
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+.main-courses {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: white;
+}
+
+@media screen and (min-width: 768px) {
+    
+}
+
+@media screen and (min-width: 992px) {
+    
+    main, .main-courses {
+        padding: 0 calc((100% - 900px) /2);
+    }
+}

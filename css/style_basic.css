@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    font-family: 'Mulish';
+}
+@font-face {
+    font-family: 'Mulish';
+    src: url(../fonts/Mulish/Mulish-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'Nunito';
+    src: url(../fonts/Nunito/Nunito-Light.ttf);
+}
+
+h1 {
+    font-family: 'Nunito';
+}
+h2 {
+    font-family: 'Nunito';
+}
+h3 {
+    font-family: 'Nunito';
+}
+h4 {
+    font-family: 'Nunito';
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #3f51b5;
+    color: white;
+    margin: 0;
+}
+.footer {
+    background-color: #252020;
+    color: rgba(255, 255, 255, 0.897);
+    display: flex;
+    flex-direction: column;
+}
+.intro, .signup, .courses, .reviwes, .contact, .footer {
+    padding: 10px;
+}
+.teachers {
+    padding: 5px;
+}
+@media screen and (min-width: 768px) {
+    .signup, .contact, .footer {
+        padding: 20px;
+    }
+    .teachers {
+        padding: 10px;
+    }
+    .intro {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .navigation, .slider, .signup, .courses, .contact, .footer {
+        padding: 0 calc((100% - 900px) /2);
+    }
+    .intro,.teachers, .courses, .reviwes {
+        padding: 0 calc((100% - 920px) /2);
+    }
+    
+}

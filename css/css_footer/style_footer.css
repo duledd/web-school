@@ -1,0 +1,97 @@
+.footer {
+    padding-top: 50px;
+    
+}
+.footer-item {
+    padding-bottom: 30px;
+}
+.footer h2 {
+    padding-bottom: 10px;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.411);
+}
+.footer small {
+    color: rgba(255, 255, 255, 0.411);
+}
+.footer span {
+    color: rgba(255, 255, 255, 0.411);
+}
+.contact-info {
+    padding-top: 20px;
+}
+.quick-links {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.quick-links a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.411);
+}
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-item .newsletter-form .input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(234, 233, 240, 0.8);
+    padding: 10px;
+    color: rgba(234, 233, 240, 0.8);
+    width: 100%;
+    outline: none;
+    font-family: 'Mulish';
+}
+.footer-item .btn {
+    display: flex;
+    align-self: center;
+    padding-bottom: 10px;
+  }
+.footer-item .btn input[type=submit] {
+    background: transparent;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.897);
+    border-radius: 40px;
+    color: rgba(255, 255, 255, 0.897);
+    align-self: flex-start;
+    outline: none;
+    margin-top: 20px;
+    width: 160px;
+    font-family: 'Mulish';
+  }
+  .social-icons {
+      padding-top: 30px;
+  }
+  .social-icons i {
+      color: #29ca8e;
+      margin: 10px;
+  }
+
+@media screen and (min-width: 768px) {
+    .footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+    .footer-item {
+        flex-direction: row;
+        width: 50%;
+        margin-bottom: 40px;
+    }
+    .contact-info {
+        padding-top: 0;
+    }
+    .quick-links {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    
+    .footer-item {
+        width: calc(100% /3);
+    }
+
+}

@@ -1,0 +1,91 @@
+
+.slider {
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: 1s ease;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+.slider-text {
+    position: absolute;
+    padding: 50px 10px 15px 10px;
+    color: rgba(255, 255, 255, 0.788);
+}
+.slider-text .btn button {
+    background: transparent;
+    color: rgba(255, 255, 255, 0.788);
+    align-self: flex-start;
+    padding: 10px 15px 10px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.788);
+    border-radius: 20px;
+    outline: none;
+    margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .slider {
+        width: 100%;
+        height: 600px;
+    }
+    .overlay {
+        justify-content: center;
+    }
+    .slider-text {
+        display: block;
+        text-align: justify;
+        position: absolute;
+        padding: 180px 20px 0 20px;
+        color: rgba(255, 255, 255, 0.788);
+    }
+    .slider-text .btn button {
+        background: transparent;
+        color: rgba(255, 255, 255, 0.788);
+        align-self: flex-start;
+        padding: 10px 15px 10px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.788);
+        border-radius: 20px;
+        outline: none;
+        margin-top: 20px;
+    }
+    .slider-text .btn button {
+        opacity: 1;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    .slider {
+        height: 500px;
+        background-position-y: top;
+    }
+    
+    .slider-text {
+        display: block;
+        text-align: justify;
+        position: absolute;
+        width: 400px;
+        color: rgba(255, 255, 255, 0.788);
+        padding-top: 150px;
+        left: calc((100% - 900px) / 2);
+        
+    }
+    .slider-text .btn button {
+        background: transparent;
+        color: rgba(255, 255, 255, 0.788);
+        align-self: flex-start;
+        padding: 10px 15px 10px 15px;
+        border: 1px solid rgba(255, 255, 255, 0.788);
+        border-radius: 20px;
+        outline: none;
+        margin-top: 20px;
+    }
+}
